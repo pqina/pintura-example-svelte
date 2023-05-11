@@ -2,6 +2,10 @@
   "private": true,
   "name": "pintura-example-svelte",
   "version": "0.0.0",
+  "author": "Rik Schennink at PQINA",
+  "license": "https://pqina.nl/pintura/license/",
+  "homepage": "https://pqina.nl/pintura/",
+  "description": "A Pintura Svelte example Project",
   "scripts": {
     "build": "rollup -c",
     "dev": "PORT=3000 rollup -c -w",
