@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "PORT=3000 rollup -c -w",
-    "start": "PORT=3000 sirv public"
+    "start": "rollup -c & PORT=3000 sirv public"
   },
   "dependencies": {
     "@pqina/filepond-plugin-image-editor": "9.x",
